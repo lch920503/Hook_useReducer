@@ -2,11 +2,11 @@ import "./App.css";
 import { useReducer, useState } from "react";
 
 /*
-  은행
-  예금/출금
-  초기금액 10,000
-  예금 1천원 단위
-  출금 1천원 단위
+  OO은행
+  입금/출금 가능
+  예금 초기금액 1만원
+  예금: 1천원 단위
+  출금: 1천원 단위
 */
 
 const ACTION_TYPE = {
